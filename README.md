@@ -24,5 +24,8 @@ MOVE [Source] [Target]
 
 #### vi commands
 1. vi filename will create a new file
-
+| Name | Description          |
+| ------------- | ----------- |
+| Help      | Display the help window.|
+| Close     | Closes a window     |
 
