@@ -12,5 +12,17 @@ An Haxe Bundle for [Sublime Text 2](http://www.sublimetext.com/2) and [Sublime T
 Syntax:
 MOVE [Source] [Target]
 7.	Remove  folder/directory: 
+		Command       | Description   	| Syntax
+		------------- | -------------     -------------
+		RD  | Delete only empty folder	| RD [Folder/Path]
+
+		\S  | It will delete subfolders even if they contain files. | RD \S [Folder/Path] 
+		
+		\S\Q | Do not display YN confirmation. It will delete subfolders even if they contain files. |	RD    \S\Q  [Folder/Path]
+
+
+
+#### vi commands
+1. vi filename will create a new file
 
 
